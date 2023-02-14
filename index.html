@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/tableContainer.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+    <title>Praca domowa M04-Kalkulator walut </title>
+</head>
+
+<body class="body">
+    <header class="header">KALKULATOR WALUT</header>
+
+    <form class="form js-form">
+        <div class="container">
+            <p class="form__paragraph"><label class="form__label">Data:</label><input class="form__date js-date"
+                    name="date" type="date" required max="2023-02-20">
+            </p>
+            <p class="form__paragraph"><label class="form_label">Kwota w PLN:</label><input
+                    class="form__input js-plnValue" required type="number" step=0.01></p>
+            <p class="form__paragraph"><button class="form__button js-button">Przelicz</button></p>
+        </div>
+
+        <div class="tableContainer">
+            <table class="table">
+
+                <tr>
+                    <th class="table__cell table__header">Waluta</th>
+                    <th class="table__cell table__header">Kurs dnia</th>
+                    <th class="table__cell table__header">Wartość</th>
+                </tr>
+
+                <tr>
+                    <th class="table__cell table__header">EUR</th>
+                    <td class="table__cell"><input class="table__inputCell  js-eurRate" type="number" step="0.0001"
+                            readonly> </td>
+
+                    <td class="table__cell"><input class="table__inputCell  js-eurValue" type="number" step="0.01"
+                            readonly></td>
+
+                </tr>
+                <tr>
+                    <th class="table__cell table__header">USD</th>
+                    <td class="table__cell"><input class="table__inputCell js-usdRate" type="number" step="0.0001"
+                            readonly></td>
+                    <td class="table__cell"><input class="table__inputCell  js-usdValue" type="number" step="0.01"
+                            readonly></td>
+                </tr>
+
+                <tr>
+                    <th class="table__cell table__header">CHF</th>
+                    <td class="table__cell"><input class="table__inputCell js-chfRate" type="number" step="0.0001"
+                            readonly></td>
+                    <td class="table__cell"><input class="table__inputCell js-chfValue" type="number" step="0.01"
+                            readonly></td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__header">GBP</th>
+                    <td class="table__cell"><input class="table__inputCell js-gbpRate" type="number" step="0.0001"
+                            readonly></td>
+                    <td class="table__cell"><input class="table__inputCell js-gbpValue" type="number" step="0.01"
+                            readonly></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <footer class="footer">
+        <p class="footer__text">Uwaga: Niniejszy kalkulator ma charakter poglądowy. Kursy walut nie są pobierane z
+            wiarygonego źródła. W żadnym wypadku nie podejmuj na podstawie tej tabeli żadnych decyzji finansowych.</p>
+    </footer>
+</body>
+
+</html>

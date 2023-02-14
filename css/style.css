@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+
+    max-width: 600px;
+    font-family: "Biryani", sans-serif;
+
+    box-shadow: 5px 5px 10px 0px rgb(200, 210, 200);
+    border-style: solid;
+    border-color: rgb(155, 155, 155);
+    border-radius: 5px;
+    overflow: auto;
+    margin: 100px auto;
+
+}
+
+.footer {
+
+    border-style: none;
+    border-color: gray;
+    margin: 0;
+    background-color: rgb(217, 241, 188, 0.2);
+}
+
+.footer__text {
+    margin: 0;
+    padding: 5px;
+    color:gray;
+    font-size: small;
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    text-align: justify;
+}
