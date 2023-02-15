@@ -1,4 +1,6 @@
 # Currency calculator
+##Demo
+
 ![Calculator](images/calculator.png)
 
 ## Calculator task: 
