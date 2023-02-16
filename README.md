@@ -1,5 +1,5 @@
 # Currency calculator
-##Demo
+## Demo
 
 ![Calculator](images/calculator.png)
 
