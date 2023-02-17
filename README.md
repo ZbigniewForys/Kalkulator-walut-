@@ -1,6 +1,5 @@
 # Currency calculator
-![Calculator] (images/calculator.png)
-
+![Calculator] (images\calculator.png)
 ## Calculator task: 
  Conversion of PLN values into currencies: 
 - EUR
