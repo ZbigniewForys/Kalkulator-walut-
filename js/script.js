@@ -17,7 +17,7 @@
     }
 
     const exchangeRate = (currency, calculationDate) => {
-        // fumkcja ma pobierać kursy walut z NBP na dany dzień. Dziś jeszcze nie umiem  tego zrobić
+     // fumkcja ma pobierać kursy walut z NBP na dany dzień. Dziś jeszcze nie umiem  tego zrobić
         switch (currency) {
             case "EUR":
                 return 4.7363 + calculationDate.slice(9, 10) / 15;
