@@ -4,7 +4,7 @@
     position: relative;
     align-items: center;
     border-collapse: collapse;
-
+    background: rgba(242, 252, 228, 1);
 }
 
 .table__cell {

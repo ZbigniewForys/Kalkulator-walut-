@@ -1,9 +1,10 @@
-.header{
+.header {
     text-align: center;
-    background-color: rgb(217, 241, 188, 0.9);
-
+    background-color: rgb(186 251 108);
+    border-color: darkgrey;
+    border-style: solid;
     font-size: larger;
- padding: 10px ;
- font-weight: 700;
-    
+    padding: 10px;
+    font-weight: 700;
+
 }

@@ -1,8 +1,7 @@
 .form {
-
     padding: 15px;
-    ;
-    background-color: rgb(217, 241, 188, 0.4);
+    background-color: rgb(219 241 188);
+    width: 100%;;
     width: 100%;
 }
 
@@ -28,7 +27,7 @@
 .form__button {
     margin-left: 15px;
     height: 30px;
-    width: 120px;
+    width: 110px;
     border-radius: 5px;
     box-shadow: 3px 2px rgb(128, 128, 128);
     background-color: rgb(242, 250, 252);
@@ -39,8 +38,10 @@
 .form__button:hover {
     background-color: rgb(160, 241, 66, 0.01);
 }
-
-.form__date {
+.form__button:focus{
+    background-color: rgb(240, 250, 131);
+}
+.form__calculationDate {
     margin-left: 5px;
     width: 120px;
     height: 30px;

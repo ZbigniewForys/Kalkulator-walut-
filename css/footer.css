@@ -1,0 +1,16 @@
+.footer {
+    border-style: none;
+    border-color: gray;
+    margin: 0;
+    background-color: rgb(240 255 222)
+}
+
+.footer__text {
+    margin: 0;
+    padding: 5px;
+    color: gray;
+    font-size: small;
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    text-align: justify;
+}
